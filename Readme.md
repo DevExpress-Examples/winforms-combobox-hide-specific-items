@@ -7,7 +7,7 @@
 *Files to look at*:
 
 * [Form1.cs](./CS/MyComboBoxEdit/Form1.cs) (VB: [Form1.vb](./VB/MyComboBoxEdit/Form1.vb))
-* [MyInvisibleIndexes.cs](./CS/MyComboBoxEdit/MyInvisibleIndexes.cs) (VB: [MyInvisibleIndexes.vb](./VB/MyComboBoxEdit/MyInvisibleIndexes.vb))
+* [ComboBoxHideItemsHelper.cs](./CS/MyComboBoxEdit/ComboBoxHideItemsHelper.cs) (VB: [ComboBoxHideItemsHelper.vb](./VB/MyComboBoxEdit/ComboBoxHideItemsHelper.vb))
 * [Program.cs](./CS/MyComboBoxEdit/Program.cs) (VB: [Program.vb](./VB/MyComboBoxEdit/Program.vb))
 <!-- default file list end -->
 # How to hide any item in ComboBoxEdit control
