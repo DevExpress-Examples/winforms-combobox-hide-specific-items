@@ -31,10 +31,9 @@ namespace MyComboBoxEdit
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.indexesCheckedComboBox = new DevExpress.XtraEditors.CheckedComboBoxEdit();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.indexesCheckedComboBox.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBoxEdit1
@@ -74,36 +73,28 @@ namespace MyComboBoxEdit
             this.labelControl2.TabIndex = 2;
             this.labelControl2.Text = "Hide indexes";
             // 
-            // textEdit1
+            // indexesCheckedComboBox
             // 
-            this.textEdit1.Location = new System.Drawing.Point(254, 39);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Size = new System.Drawing.Size(124, 20);
-            this.textEdit1.TabIndex = 3;
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Location = new System.Drawing.Point(384, 36);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(55, 23);
-            this.simpleButton1.TabIndex = 4;
-            this.simpleButton1.Text = "Apply";
-            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            this.indexesCheckedComboBox.Location = new System.Drawing.Point(254, 40);
+            this.indexesCheckedComboBox.Name = "indexesCheckedComboBox";
+            this.indexesCheckedComboBox.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.indexesCheckedComboBox.Size = new System.Drawing.Size(124, 20);
+            this.indexesCheckedComboBox.TabIndex = 5;
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(459, 110);
-            this.Controls.Add(this.simpleButton1);
-            this.Controls.Add(this.textEdit1);
+            this.ClientSize = new System.Drawing.Size(411, 92);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.comboBoxEdit1);
+            this.Controls.Add(this.indexesCheckedComboBox);
             this.Name = "FormMain";
             this.Text = "Main form";
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.indexesCheckedComboBox.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,8 +105,7 @@ namespace MyComboBoxEdit
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.TextEdit textEdit1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.CheckedComboBoxEdit indexesCheckedComboBox;
     }
 }
 
