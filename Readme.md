@@ -17,7 +17,7 @@ This example shows how to temporarily hide combo box items.
 * [Form1.cs](./CS/MyComboBoxEdit/Form1.cs) (VB: [Form1.vb](./VB/MyComboBoxEdit/Form1.vb))
 * [ComboBoxHideItemsHelper.cs](./CS/MyComboBoxEdit/ComboBoxHideItemsHelper.cs) (VB: [ComboBoxHideItemsHelper.vb](./VB/MyComboBoxEdit/ComboBoxHideItemsHelper.vb))
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-combobox-hide-specific-items&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-combobox-hide-specific-items&~~~was_helpful=no)
 
