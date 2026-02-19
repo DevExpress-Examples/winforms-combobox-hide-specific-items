@@ -9,7 +9,7 @@
 
 This example shows how to temporarily hide combo box items.
 
-![WinForms Data Editors - How to hide items in ComboBoxEdit](https://raw.githubusercontent.com/DevExpress-Examples/how-to-hide-any-item-in-comboboxedit-control-e3476/23.1.3%2B/media/winforms-combobox-hide-items.png)
+![WinForms Data Editors - How to hide items in ComboBoxEdit](media/winforms-combobox-hide-items.png)
 
 
 ## Files to Review
@@ -23,3 +23,4 @@ This example shows how to temporarily hide combo box items.
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+
